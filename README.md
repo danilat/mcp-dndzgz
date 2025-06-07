@@ -23,23 +23,16 @@ GOOGLE_MAPS_API_KEY=your-api-key
 ```
 
 To start the server:
-```bash
-npm start
-```
-
-Or configure in your MCP client, for example:
+Configure in your MCP client using `npx`, for example:
 ```json
 {
     "mcpServers": {
-        "dndzgz": {
-            "command": "node",
-            "args": [
-                "/Users/danilat/workspace/mcp-dndzgz/index.js"
-            ],
-            "env": {
-                "GOOGLE_MAPS_API_KEY": "your-api-key"
-            }
+      "dndzgz": {
+        "command": "npx @dndzgz/mcp",
+        "env": {
+          "GOOGLE_MAPS_API_KEY": "your-api-key"
         }
+      }
     }
 }
 ```

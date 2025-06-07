@@ -1,9 +1,12 @@
 {
-  "name": "mcp-dndzgz",
+  "name": "@dndzgz/mcp",
   "version": "1.0.0",
-  "description": "",
+  "description": "MCP server for DNDzgz API - Get realtime information about public transport in Zaragoza",
   "type": "module",
   "main": "index.js",
+  "bin": {
+    "mcp-dndzgz": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --env-file=.env index.js"
