@@ -17,12 +17,13 @@ npm install
 
 ## Running the Application
 
-Add a the environment variable with a valid google maps api key
+Add a the environment variable with a valid google maps api key and run it with the http transport
 ```bash
-GOOGLE_MAPS_API_KEY=your-api-key
+GOOGLE_MAPS_API_KEY=your-api-key npm start:http
 ```
+The server will start you should configure yout MCP client to connect.
 
-To start the server:
+Or start the server using stdio trasport:
 Configure in your MCP client using `npx`, for example:
 ```json
 {
@@ -36,8 +37,7 @@ Configure in your MCP client using `npx`, for example:
     }
 }
 ```
-
-The server will start and connect to the MCP transport layer.
+The server will start and connect to the MCP server.
 
 ## Available Tools
 
