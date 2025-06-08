@@ -1,6 +1,6 @@
 {
   "name": "@dndzgz/mcp",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "MCP server for DNDzgz API - Get realtime information about public transport in Zaragoza",
   "type": "module",
   "main": "index.js",
